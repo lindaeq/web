@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>linda qi</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body class="is-loading">
+
+  <div class="page">
+
+    <!-- ============ HEADER ============ -->
+    <header class="section header">
+      <img src="assets/flower1.png" alt="" class="flower flower--header" />
+
+      <h1 class="name">linda qi</h1>
+      <p class="subtitle"><span id="typedSubtitle"></span><span class="cursor" aria-hidden="true">|</span></p>
+
+      <div class="now-playing">
+        <p class="eyebrow">currently <em>playing</em>:</p>
+        <div class="player-bar">
+          <button class="player-btn" id="prevBtn" aria-label="Previous track">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6L18 6v12z"/></svg>
+          </button>
+          <button class="player-btn" id="playBtn" aria-label="Play">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <button class="player-btn" id="nextBtn" aria-label="Next track">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M16 6h2v12h-2zM6 6l8.5 6L6 18z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+          <img src="assets/github.png" alt="GitHub" />
+        </a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+          <img src="assets/linkedin.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </header>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section projects">
+      <h2 class="section-title">projects</h2>
+      <p class="section-subtitle"><em>what i've been</em> <span class="highlight">making</span><em>...</em></p>
+
+      <div class="card-grid">
+        <div class="card card--project card--tall" data-project="1"></div>
+        <div class="card-column">
+          <div class="card card--project" data-project="2"></div>
+          <div class="card card--project" data-project="3"></div>
+        </div>
+      </div>
+
+      <img src="assets/flower2.png" alt="" class="flower flower--projects" />
+    </section>
+
+    <!-- ============ DESIGN ============ -->
+    <section class="section design">
+      <h2 class="section-title section-title--right">design</h2>
+      <p class="section-subtitle section-subtitle--right"><em>what i've been</em> <span class="highlight">designing</span><em>...</em></p>
+
+      <div class="card-grid card-grid--design">
+        <div class="card-column">
+          <div class="card card--design card--pink" data-design="1"></div>
+          <div class="card card--design card--maroon" data-design="2"></div>
+        </div>
+        <div class="card card--design card--pink card--tall" data-design="3"></div>
+      </div>
+
+      <img src="assets/flower3.png" alt="" class="flower flower--design" />
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="section footer">
+      <div class="duolingo">
+        <p class="eyebrow">duolingo streak</p>
+        <p class="streak-number" id="duolingoStreak">689</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <div class="bottom-strip"></div>
+
+  <script src="src/main.js"></script>
+</body>
+</html>
