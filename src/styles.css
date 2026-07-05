@@ -255,11 +255,10 @@ body.is-loading .page {
 .section-subtitle {
   margin-top: 6px;
   margin-bottom: clamp(24px, 3cqw, 44px);
-  font-size: clamp(14px, 1.4cqw, 19px);
+  font-size: clamp(18px, 1.8cqw, 26px);
   font-weight: 700;
   color: var(--white-soft);
 }
-
 .section-subtitle--right {
   text-align: right;
 }
